@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>library of useless documents</title>
+    <!-- PWA manifest -->
+    <link rel="manifest" href="manifest.json">
+    <!-- Theme color for browser UI -->
+    <meta name="theme-color" content="#8b7e6b">
+    <!-- CSS will be linked here -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header with site title and search -->
+    <header class="app-header">
+        <div class="header-left">
+            <!-- Hamburger menu button (visible on mobile) -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">☰</button>
+            <h1 class="site-title">library of useless documents</h1>
+        </div>
+        <div class="header-right">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Search all documents...">
+                <button id="searchBtn">Search</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main container: sidebar + content -->
+    <div class="main-container">
+        <!-- Sidebar (collapsible) -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <h2>Categories</h2>
+                <button class="sidebar-close" id="sidebarClose" aria-label="Close sidebar">✕</button>
+            </div>
+            <!-- Category list will be populated by JavaScript -->
+            <nav class="category-list" id="categoryList"></nav>
+        </aside>
+
+        <!-- Overlay for mobile when sidebar is open -->
+        <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+        <!-- Main content area -->
+        <main class="content" id="content">
+            <!-- Welcome message (shown initially) -->
+            <div class="welcome-message">
+                <h2>Welcome to your offline law library</h2>
+                <p>Select a document from the sidebar or search above.</p>
+            </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+        <p>International Law Documents – Version 1.0.0</p>
+        <p>All documents are in the public domain.</p>
+    </footer>
+
+    <!-- JavaScript will be loaded here -->
+    <script src="script.js"></script>
+    <!-- Service worker registration (will be added later) -->
+    <script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('service-worker.js')
+      .then(reg => console.log('Service Worker registered'))
+      .catch(err => console.log('Service Worker registration failed:', err));
+  });
+}
+</script>
+<!-- Floating Table of Contents -->
+<div class="toc-button" id="tocButton">📑</div>
+<div class="toc-panel" id="tocPanel">
+    <div class="toc-header">
+        <h3>Contents</h3>
+        <button class="toc-close" id="tocClose">✕</button>
+    </div>
+    <div class="toc-content" id="tocContent">
+        <!-- Will be populated by JavaScript -->
+    </div>
+</div>
+</body>
+</html>

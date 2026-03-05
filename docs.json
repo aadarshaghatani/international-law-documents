@@ -1,0 +1,182 @@
+[
+  {
+    "title": "Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and their Disposal",
+    "year": null,
+    "category": "environment",
+    "path": "data/environment/basel.json"
+  },
+  {
+    "title": "Convention on Biological Diversity",
+    "year": null,
+    "category": "environment",
+    "path": "data/environment/cbd.json"
+  },
+  {
+    "title": "Kyoto Protocol to the United Nations Framework Convention on Climate Change",
+    "year": null,
+    "category": "environment",
+    "path": "data/environment/kyoto-protocol.json"
+  },
+  {
+    "title": "Rio Declaration on Environment and Development",
+    "year": null,
+    "category": "environment",
+    "path": "data/environment/rio-decl.json"
+  },
+  {
+    "title": "UNITED NATIONS FRAMEWORK CONVENTION ON CLIMATE CHANGE",
+    "year": null,
+    "category": "environment",
+    "path": "data/environment/unfccc.json"
+  },
+  {
+    "title": "Statute of the International Court of Justice",
+    "year": null,
+    "category": "foundation",
+    "path": "data/foundation/icj-statute.json"
+  },
+  {
+    "title": "Responsibility of States for Internationally Wrongful Acts",
+    "year": null,
+    "category": "foundation",
+    "path": "data/foundation/intl-wrongul-acts.json"
+  },
+  {
+    "title": "United Nations Convention on Jurisdictional Immunities of States and Their Property",
+    "year": null,
+    "category": "foundation",
+    "path": "data/foundation/jurisdictional-immunity.json"
+  },
+  {
+    "title": "Draft articles on the responsibility of international organizations",
+    "year": null,
+    "category": "foundation",
+    "path": "data/foundation/resp-intl-orgn.json"
+  },
+  {
+    "title": "Vienna Convention on Consular Relations",
+    "year": null,
+    "category": "foundation",
+    "path": "data/foundation/vccr.json"
+  },
+  {
+    "title": "Vienna Convention on Diplomatic Relations",
+    "year": null,
+    "category": "foundation",
+    "path": "data/foundation/vcdr.json"
+  },
+  {
+    "title": "Vienna Convention on the Law of Treaties",
+    "year": null,
+    "category": "foundation",
+    "path": "data/foundation/vclt.json"
+  },
+  {
+    "title": "cat",
+    "year": null,
+    "category": "human-rights",
+    "path": "data/human-rights/cat.json"
+  },
+  {
+    "title": "Convention on the Elimination of All Forms of Discrimination against Women",
+    "year": null,
+    "category": "human-rights",
+    "path": "data/human-rights/cedaw.json"
+  },
+  {
+    "title": "International Convention on the Protection of the Rights of All Migrant Workers and Members of Their Families",
+    "year": null,
+    "category": "human-rights",
+    "path": "data/human-rights/cmw.json"
+  },
+  {
+    "title": "International Convention for the Protection of All Persons from Enforced Disappearance",
+    "year": null,
+    "category": "human-rights",
+    "path": "data/human-rights/cped.json"
+  },
+  {
+    "title": "Convention on the Rights of the Child",
+    "year": null,
+    "category": "human-rights",
+    "path": "data/human-rights/crc.json"
+  },
+  {
+    "title": "Convention on the Rights of Persons with Disabilities",
+    "year": null,
+    "category": "human-rights",
+    "path": "data/human-rights/crpd.json"
+  },
+  {
+    "title": "International Covenant on Civil and Political Rights",
+    "year": null,
+    "category": "human-rights",
+    "path": "data/human-rights/iccpr.json"
+  },
+  {
+    "title": "International Convention on the Elimination of All Forms of Racial Discrimination",
+    "year": null,
+    "category": "human-rights",
+    "path": "data/human-rights/icerd.json"
+  },
+  {
+    "title": "International Covenant on Economic, Social and Cultural Rights",
+    "year": null,
+    "category": "human-rights",
+    "path": "data/human-rights/icescr.json"
+  },
+  {
+    "title": "op-to-iccpr",
+    "year": null,
+    "category": "human-rights",
+    "path": "data/human-rights/op-to-iccpr.json"
+  },
+  {
+    "title": "Universal Declaration of Human Rights",
+    "year": null,
+    "category": "human-rights",
+    "path": "data/human-rights/udhr.json"
+  },
+  {
+    "title": "The Geneva Conventions of 12 August 1949",
+    "year": null,
+    "category": "ihl",
+    "path": "data/ihl/ihl.json"
+  },
+  {
+    "title": "AMERICAN CONVENTION ON HUMAN RIGHTS (Signed at the Inter-American Specialized Conference on Human Rights, San José, Costa Rica, 22 November 1969)",
+    "year": null,
+    "category": "regional",
+    "path": "data/regional/achr.json"
+  },
+  {
+    "title": "African Charter on Human and Peoples' Rights",
+    "year": null,
+    "category": "regional",
+    "path": "data/regional/african-charter.json"
+  },
+  {
+    "title": "ASEAN Human Rights Declaration",
+    "year": null,
+    "category": "regional",
+    "path": "data/regional/asean-hr.json"
+  },
+  {
+    "title": "Convention for the Protection of Human Rights and Fundamental Freedoms",
+    "year": null,
+    "category": "regional",
+    "path": "data/regional/echr.json"
+  },
+  {
+    "title": "Convention on the Settlement of Investment Disputes between States and Nationals of Other States",
+    "year": null,
+    "category": "trade-investment",
+    "path": "data/trade-investment/icsid.json"
+  },
+  {
+    "title": "Marrakesh Agreement Establishing the World Trade Organization, Annex 1C: Agreement on Trade-Related Aspects of Intellectual Property Rights",
+    "year": null,
+    "category": "trade-investment",
+    "path": "data/trade-investment/marrakesh-agreement.json"
+  }
+]

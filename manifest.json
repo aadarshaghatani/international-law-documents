@@ -1,0 +1,23 @@
+{
+  "name": "LawLib: library of useless documents",
+  "short_name": "LawLib",
+  "description": "Offline collection of international law documents",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#8b7e6b",
+  "background_color": "#f8f5f0",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-192.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
