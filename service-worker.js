@@ -1,4 +1,4 @@
-const CACHE_NAME = 'lawlib-v4'; // Increment version
+const CACHE_NAME = 'lawlib-v4';
 
 const urlsToCache = [
   './',
